@@ -7,6 +7,9 @@ app.set('view engine', 'ejs');
 
 app.use(express.static('public'));
 
+
+
+
 //create first route
 app.get('/search', (req,res)=> {
     res.render('search');
