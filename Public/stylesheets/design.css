@@ -1,3 +1,11 @@
-.searchh1 {
+#searchh1 {
 margin-top: 20%;
+}
+
+#bttn{
+    margin-left: 2%;
+}
+
+body{
+    background-color: #f5f5f5;
 }
