@@ -7,7 +7,10 @@ app.set('view engine', 'ejs');
 
 app.use(express.static('public'));
 
-
+//another route
+app.get('/movies' , (req, res)=>{
+   res.render('movies');
+});
 
 
 //create first route
